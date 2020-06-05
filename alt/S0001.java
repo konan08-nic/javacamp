@@ -1,13 +1,13 @@
 package javacamp;
+
 import java.util.List;
 
-public class SO0001 {
+public class S0001 {
 
-	public static void main(String[] args) {
-	   List<Integer> list = multiplesDeTroisEtCinq(1000);
-           System.out.println(list);
-           System.out.println(somme(list));
-           System.out.println("La somme des multiples de 3 et 5 inferieurs a 1000: " + somme);
+    public static void main(String[] args) {
+	List<Integer> list = multiplesDeTroisEtCinq(1000);
+        System.out.println(list);
+        System.out.println("La somme des multiples de 3 et 5 inferieurs a 1000: " + somme(list));
 			            
              }
 
