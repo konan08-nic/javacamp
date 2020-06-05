@@ -4,17 +4,22 @@ public class S0006 {
 
 	public static void main(String[] args) {
 		
-		int somme = multiple(1000);
-                System.out.println("La somme des multiples de 3 et 5 inferieurs a 1000: " + somme);
+		int somme = sommeDesTermsDeFibonacci(1000);
+                System.out.println("La somme des termes inferieurs à 1000 de la suite de Fibonacci est: " + somme);
 			            
              }
 
-      public static int multiple(int n){
+      public static int fibonacci(int n){
 
            // Ecrire le code de la fonction ici
 
 
       }	
+
+    public static int sommeDesTermesDeFibonacci(int n){
+    
+     // Ecris ton code ici.
+    }
 
 }
 		
