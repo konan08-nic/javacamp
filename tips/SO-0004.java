@@ -1,6 +1,6 @@
 package javacamp;
 
-public class S0001 {
+public class S0004 {
 
 	public static void main(String[] args) {
 	       int p = puissance(2,100)	
