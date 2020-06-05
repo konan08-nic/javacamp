@@ -1,6 +1,6 @@
 package javacamp;
 
-public class SO0001 {
+public class S0006 {
 
 	public static void main(String[] args) {
 		
