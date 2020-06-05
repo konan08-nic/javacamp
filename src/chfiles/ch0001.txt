@@ -1,0 +1,7 @@
+CHALLENGE #0001
+===============
+
+Si nous listons tous les nombres naturels inférieurs à 10 qui sont des multiples
+de 3 ou 5, nous obtenons 3, 5, 6 et 9. La somme de ces multiples est 23.
+
+Trouvez la somme de tous les multiples de 3 ou 5 en dessous de 1000.
