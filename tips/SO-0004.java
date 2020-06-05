@@ -1,20 +1,26 @@
 package javacamp;
 
-public class SO0001 {
+public class S0001 {
 
 	public static void main(String[] args) {
-		
-		int somme = multiple(1000);
-                System.out.println("La somme des multiples de 3 et 5 inferieurs a 1000: " + somme);
-			            
-             }
+	       int p = puissance(2,100)	
+               int s = sommeDesChiffres(p)
+               System.out.println(String.format("puissance(%d,%d) = %d",2,1000,p));
+               System.out.println(String.format("somme(%d) = %d",p,s));     
+        }
 
-      public static int multiple(int n){
+        public static int puissance(int a,int n){
 
-           // Ecrire le code de la fonction ici
+           // Ecrire ton code  ici
 
 
       }	
+
+      public static int sommeDesChiffres(int n){
+
+        // Ecrire ton ici
+
+      }
 
 }
 		
