@@ -4,12 +4,12 @@ public class SO0001 {
 
 	public static void main(String[] args) {
 		
-		int somme = multiple(1000);
-                System.out.println("La somme des multiples de 3 et 5 inferieurs a 1000: " + somme);
+		int ppcm = determinePPCM(20);
+                System.out.println("Le plus petit multiple de chacun des nombres de 1 à %i: %i ",20,ppcm);
 			            
              }
 
-      public static int multiple(int n){
+      public static int determinePPCM(int n){
 
            // Ecrire le code de la fonction ici
 
