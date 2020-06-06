@@ -1,6 +1,6 @@
 # Opérations de base sur java.math.BigInteger
 
-        ###BigInteger bigint1 = new BigInteger("2024");
+        ### BigInteger bigint1 = new BigInteger("2024");
         ###BigInteger bigint2 = new BigInteger("1994");
         ###BigInteger result;
         ### BigInteger[] tab;
