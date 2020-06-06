@@ -1,15 +1,15 @@
 # Opérations de base sur java.math.BigInteger
 
-        ### BigInteger bigint1 = new BigInteger("2024");
-        ###BigInteger bigint2 = new BigInteger("1994");
-        ###BigInteger result;
-        ### BigInteger[] tab;
+         BigInteger bigint1 = new BigInteger("2024");
+        BigInteger bigint2 = new BigInteger("1994");
+        BigInteger result;
+        BigInteger[] tab;
         
-        #####Addition
+        Addition
         result = bigint1.add(bigint2);
         System.out.println(String.format("%d + %d = %d",bigint1,bigint2,result));
         
-        ####Soustraction
+        Soustraction
         result = bigint1.subtract(bigint2);
         System.out.println(String.format("%d - %d = %d",bigint1,bigint2,result));
         
