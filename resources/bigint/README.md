@@ -1,9 +1,10 @@
 # Opérations de base sur java.math.BigInteger
 
-   BigInteger bigint1 = new BigInteger("2024");
-   BigInteger bigint2 = new BigInteger("1994");
-   BigInteger result;
-   BigInteger[] tab;
+    BigInteger bigint1 = new BigInteger("2024");
+    BigInteger bigint2 = new BigInteger("1994");
+    BigInteger result;
+    BigInteger[] tab;
+    
     
    **Addition**
    
@@ -27,8 +28,9 @@
         
   **Modulo**
   
-   result = bigint1.mod(bigint2);
-   System.out.println(String.format("%d mod %d = %d",bigint1,bigint2,result));
+  
+    result = bigint1.mod(bigint2);
+    System.out.println(String.format("%d mod %d = %d",bigint1,bigint2,result));
         
    **Division sans reste** - cet opérateur renvoie un tableau contenant deux 
      objects de type BingInteger, le premier est le quotient entier de la 
@@ -36,7 +38,7 @@
      C'est en effet un opérateur pratique pour avoir le quotient et le 
      reste de la division en seul coup.
      
-   tab = bigint1.divideAndRemainder(bigint2);
-   System.out.println(String.format("%d // %d = %d",bigint1,bigint2,tab[0]));
-   System.out.println(String.format("%d mod %d = %d",bigint1,bigint2,tab[1]));
+    tab = bigint1.divideAndRemainder(bigint2);
+    System.out.println(String.format("%d // %d = %d",bigint1,bigint2,tab[0]));
+    System.out.println(String.format("%d mod %d = %d",bigint1,bigint2,tab[1]));
 
