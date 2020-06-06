@@ -1,1 +1,1 @@
-# Opérations de base sur BigInteger
+# Opérations de base sur java.math.BigInteger
