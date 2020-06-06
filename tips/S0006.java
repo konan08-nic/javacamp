@@ -5,7 +5,7 @@ public class S0006 {
 	public static void main(String[] args) {
 		
 		int somme = sommeDesTermsDeFibonacci(1000);
-                System.out.println("La somme des termes inferieurs à 1000 de la suite de Fibonacci est: " + somme);
+                System.out.println("La somme des termes de la suite de Fibonacci inferieurs à 1000 est: " + somme);
 			            
              }
 
