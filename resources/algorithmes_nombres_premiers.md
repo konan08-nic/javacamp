@@ -1,3 +1,0 @@
-# Crible d'Ératosthène
-
-Les premiers algorithmes pour décider si un nombre est premier (appelés **tests de primalité**) consistent à essayer de le diviser par tous les nombres qui n'excèdent pas sa racine carrée : s'il est divisible par l'un d'entre eux, il est composé, et sinon, il est premier. Cependant, l'algorithme déduit de cette formulation peut être rendu plus efficace : il suggère beaucoup de divisions inutiles, par exemple, si un nombre n'est pas divisible par 2, il est inutile de tester s'il est divisible par 4. En fait, il suffit de tester sa divisibilité par tous les nombres premiers n'excédant pas sa racine carrée.
