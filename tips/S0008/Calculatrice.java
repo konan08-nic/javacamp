@@ -4,7 +4,8 @@ public class Calculatrice {
 
 	public static void main(String[] args) {
 		
-		// Ecrire ton code ici
+		Commands cmd = new Commands();
+	        // Ecrire ton code ici
 			            
              }
 
