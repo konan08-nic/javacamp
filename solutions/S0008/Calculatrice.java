@@ -31,12 +31,12 @@ public class Calculatrice {
 				           }
 				        }
 				        else if (k.length == 2){
-				           System.err.println("vous devez entrer trois données"+"\n");
+				           System.err.println("vous devez entrer trois donnÃ©es"+"\n");
 				            count++;
 				            continue;
 				        }
 				        else if (k.length > 3){
-				            System.err.println("vous devez entrer trois données"+"\n");
+				            System.err.println("vous devez entrer trois donnÃ©es"+"\n");
 				            count++;
 				            continue;
 				        }
@@ -78,7 +78,7 @@ public class Calculatrice {
 				       }
 
 				       else{
-				        System.err.println("votre commande n'est pas définie"+"\n");
+				        System.err.println("votre commande n'est pas dÃ©finie"+"\n");
 				        count++;
 				        continue;
 				       }
