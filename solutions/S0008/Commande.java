@@ -46,7 +46,7 @@ public class Commande {
 	}
 	
 	public void quitter() {
-		System.out.println("aurevoir et  bientôt! \n");
+		System.out.println("aurevoir et  bientÃ´t! \n");
 		System.exit(0);	
 	}
 
