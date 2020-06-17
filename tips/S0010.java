@@ -4,17 +4,22 @@ public class S0010 {
 
 	public static void main(String[] args) {
 		
-		int somme = multiple(1000);
-                System.out.println("La somme des multiples de 3 et 5 inferieurs a 1000: " + somme);
+		int somme = termeDeFibonacciAyantNChiffres(10);
+                System.out.println("Le premier terme de la suite de Fibonacci ayant 10 chiffres est:" + somme);
 			            
              }
 
-      public static int multiple(int n){
+      public static int fibonacci(int n){
 
-           // Ecrire le code de la fonction ici
+           // Ecrire le code ici
 
 
       }	
+     
+      public static int termeDeFibonacciAyantNChiffres(int n){
+      
+           // Ecrire le code ici
+      }
 
 }
 		
