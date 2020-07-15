@@ -2,18 +2,20 @@ package javacamp;
 
 public class S0011 {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 		
-		int somme = multiple(1000);
-                System.out.println("La somme des multiples de 3 et 5 inferieurs a 1000: " + somme);
-			            
-             }
+	String code = cipher("TUTORIEL DE JAVA POUR LES NULS",3);
+        System.out.println(code); // WXWRULHO GH MDYD SRXU OHV QXOV
+	System.out.println(decipher(code,3)); // TUTORIEL DE JAVA POUR LES NULS
+	    
+       }
 
-      public static int multiple(int n){
-
-           // Ecrire le code de la fonction ici
-
-
+      public static String cipher(String message,int key){
+           // Ecrire ton code ici
+      }
+	
+    public static String decipher(String code,int key){
+           // Ecrire ton code  ici
       }	
 
 }
